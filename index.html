@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>IRC2HTML</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="data/style.css" type="text/css">
+		<script type="text/javascript" src="data/script.js"></script>
+	</head>
+	<body>
+		<div id="script" class="hidden">
+			<form id="form" accept-charset="UTF-8">
+				<table width="100%">
+					<tr>
+						<td rowspan="3" width="45%">
+							<textarea width="100%" id="text" name="text" placeholder="*Enter ASCII here*"></textarea>
+						</td>
+						<td align="center" height="33%" valign="top">
+							<b>IRC2HTML</b>
+							<br><small><i>(<a href="https://acid.vegas/irc2html">source</a>)</i></small>
+						</td>
+						<td rowspan="3" width="45%">
+							<textarea width="100%" id="html" name="html" placeholder="*HTML code will appear here*" readonly></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td height="33%" width="10%">
+							<input class="butt" type="submit" name="submit" value="Convert" onclick="return convert();"/>
+							<br><br><input class="butt" type="reset" name="reset" value="Reset" onclick="formReset();"/>
+							<br><br><input class="butt" type="button" name="download" value="Download" onclick="Download();"/>
+						</td>
+					</tr>
+					<tr>
+						<td align="center" height="33%" valign="bottom">
+							<b>View</b>
+						</td>
+					</tr>
+				</table>
+			</form>
+		<div id="showcase" class="showcase">
+			<span class="placeholder">*HTML view will appear here*</span>
+		</div>
+	</div>
+	<script type="text/javascript">
+		document.getElementById("script").style.display = "block";
+	</script>
+	<noscript>
+		Javascript is required to use this tool.
+	</noscript>
+	</body>
+</html>

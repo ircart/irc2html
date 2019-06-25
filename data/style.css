@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+._b{font-weight:bold;}
+._i{font-style:italic;}
+._u{text-decoration:underline;}
+.f0{color:#ffffff;}
+.f1{color:#000000;}
+.f2{color:#00007f;}
+.f3{color:#009300;}
+.f4{color:#ff0000;}
+.f5{color:#7f0000;}
+.f6{color:#9c009c;}
+.f7{color:#fc7f00;}
+.f8{color:#ffff00;}
+.f9{color:#00fc00;}
+.f10{color:#009393;}
+.f11{color:#00ffff;}
+.f12{color:#0000fc;}
+.f13{color:#ff00ff;}
+.f14{color:#7f7f7f;}
+.f15{color:#d2d2d2;}
+.b0{background-color:#ffffff;}
+.b1{background-color:#000000;}
+.b2{background-color:#00007f;}
+.b3{background-color:#009300;}
+.b4{background-color:#ff0000;}
+.b5{background-color:#7f0000;}
+.b6{background-color:#9c009c;}
+.b7{background-color:#fc7f00;}
+.b8{background-color:#ffff00;}
+.b9{background-color:#00fc00;}
+.b10{background-color:#009393;}
+.b11{background-color:#00ffff;}
+.b12{background-color:#0000fc;}
+.b13{background-color:#ff00ff;}
+.b14{background-color:#7f7f7f;}
+.b15{background-color:#d2d2d2;}
+
+html, body, p{font-family:segoe ui, trebuchet MS,Lucida Sans Unicode, Lucida Sans, Sans-Serif;}
+h1{font-size:1.5em;text-align:center;}
+h2{font-size:1em;font-weight:700;}
+h6{font-size:1em;text-align:center;}
+pre{font-family:Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, monospace, serif;margin:0;}
+textarea{background-color:#F8F8F8;border:solid 1px #ddd;display:block;font-family:Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, monospace, serif;font-size:0.9em;height:36em;padding:1%;resize:none;width:97%;}
+
+.butt{width:150px;}
+.container{margin:0;width:100%;}
+.hidden{display:none;}
+.placeholder{color:gray;}
+.showcase{border:solid 1px #ddd;display:block;font-size:0.9em;padding:1%;}
